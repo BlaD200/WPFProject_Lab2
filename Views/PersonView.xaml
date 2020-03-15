@@ -23,15 +23,15 @@
         <tools:LabelAndTextControl Grid.Row="0" Grid.Column="0"
                                    Grid.ColumnSpan="2" Margin="10"
                                    Caption="Name"
-                                   Text="{Binding Name, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                                   Text="{Binding Name, Mode=OneWayToSource, UpdateSourceTrigger=PropertyChanged}" />
         <tools:LabelAndTextControl Grid.Row="1" Grid.Column="0"
                                    Grid.ColumnSpan="2" Margin="10"
                                    Caption="Surname"
-                                   Text="{Binding Surname, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                                   Text="{Binding Surname, Mode=OneWayToSource, UpdateSourceTrigger=PropertyChanged}" />
         <tools:LabelAndTextControl Grid.Row="2" Grid.Column="0"
                                    Grid.ColumnSpan="2" Margin="10"
-                                   Caption="EMail"
-                                   Text="{Binding Email, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                                   Caption="Email"
+                                   Text="{Binding Email, Mode=OneWayToSource, UpdateSourceTrigger=PropertyChanged}" />
 
         <Label Name="Label" 
                Grid.Row="3" Grid.Column="0" Height="25" 
