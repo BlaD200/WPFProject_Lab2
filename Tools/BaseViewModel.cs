@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
+﻿using System.ComponentModel;
 using System.Runtime.CompilerServices;
-using System.Text;
 using WPFProject_Lab2.Annotations;
 
 namespace WPFProject_Lab2.Tools

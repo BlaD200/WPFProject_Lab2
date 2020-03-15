@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Windows;
-using WPFProject_Lab2.Tools;
+﻿using System.Windows;
 
 namespace WPFProject_Lab2.Tools.Managers
 {
